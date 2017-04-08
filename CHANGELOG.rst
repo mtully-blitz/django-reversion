@@ -167,6 +167,8 @@ Low-level API
 
 * **Breaking:** ``reversion.get_for_object()`` has been moved to ``Version.objects.get_for_object()`` (@etianen).
 
+* **Breaking:** ``Version._object_version`` has been renamed to ``Version.object_version`` (@etianen).
+
 * **Breaking:** ``reversion.get_deleted()`` has been moved to ``Version.objects.get_deleted()`` (@etianen).
 
 * **Breaking:** Refactored multi-db support (@etianen).
